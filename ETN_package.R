@@ -60,3 +60,6 @@ my_tags <- get_transmitters(my_con)
 #filter for detections
 my_detections <- get_detections(my_con, animal_project = "phd_reubens", network_project = NULL,
                                 start_date = "2011-01-28", end_date = "2018-05", deployment_station_name = NULL, transmitter = NULL, limit = NULL)
+
+
+# test plot
