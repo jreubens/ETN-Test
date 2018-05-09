@@ -6,6 +6,8 @@ output: rmarkdown::html_vignette
 vignette: https://github.com/inbo/etn/blob/master/vignettes/access-etn-data.Rmd
 ---
 
+# for your information: don't work with "setwd" but use .Rprojects and direct link to the folder... e.g. .Scr
+# e.g. surveys <- read.csv(.Script) 
 
 devtools::install_github("inbo/etn")
 library(etn)
@@ -62,4 +64,5 @@ my_detections <- get_detections(my_con, animal_project = "phd_reubens", network_
                                 start_date = "2011-01-28", end_date = "2018-05", deployment_station_name = NULL, transmitter = NULL, limit = NULL)
 
 
-# test plot
+
+
