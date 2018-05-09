@@ -62,4 +62,4 @@ my_detections <- get_detections(my_con, animal_project = "phd_reubens", network_
                                 start_date = "2011-01-28", end_date = "2018-05", deployment_station_name = NULL, transmitter = NULL, limit = NULL)
 
 
-# test plot
+added new
