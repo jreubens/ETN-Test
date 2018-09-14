@@ -25,3 +25,5 @@ vignettes/*.pdf
 .Rproj.user
 ETN-Test.Rproj
 Draft
+# Environmental files
+.Renviron*

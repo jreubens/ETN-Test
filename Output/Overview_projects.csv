@@ -1,0 +1,80 @@
+"","id","name","projectcode","type","startdate","enddate","moratorium","imis_dataset_id","latitude","longitude"
+"1",638,"Lifewatch","cpod-lifewatch","network",NA,NA,"0",NA,NA,NA
+"2",3,"Lifewatch","lifewatch","network",NA,NA,"0",NA,NA,NA
+"3",597,"MEPNSW","mepnsw","animal",NA,NA,"1",NA,NA,NA
+"4",607,"Lauwersmeer","lauwersmeer","animal",NA,NA,"1",NA,NA,NA
+"5",598,"Delfzijl Drie Delfzijlen","driederfzijlen","animal",NA,NA,"1",NA,NA,NA
+"6",594,"Delfzijl Duurswold","duurswold","animal",NA,NA,"1",NA,NA,NA
+"7",603,"Garmerwolde","gamerwolde","animal",NA,NA,"1",NA,NA,NA
+"8",589,"Eemskanaal","eemskanaal","animal",NA,NA,"1",NA,NA,NA
+"9",592,"Friesland, Offerhaus","offerhaus","animal",NA,NA,"1",NA,NA,NA
+"10",600,"Friesland, Roptazyl","roptazyl","animal",NA,NA,"1",NA,NA,NA
+"11",601,"Friesland, Schalsum","schalsum","animal",NA,NA,"1",NA,NA,NA
+"12",593,"Friesland, Miedema","miedema","animal",NA,NA,"1",NA,NA,NA
+"13",602,"Kornwerderzand ","kornwerderzand","animal",NA,NA,"1",NA,NA,NA
+"14",595,"Amsterdam","amsterdam","animal",NA,NA,"1",NA,NA,NA
+"15",591,"Hunze","hunze","animal",NA,NA,"1",NA,NA,NA
+"16",590,"Drentsche Aa","drentscheaa","animal",NA,NA,"1",NA,NA,NA
+"17",604,"Hunze en Aa's","hunzeenaas","animal",NA,NA,"1",NA,NA,NA
+"18",596,"Flatfish","flatfish","animal",NA,NA,"1",NA,NA,NA
+"19",7,"Demer","demer","network",NA,NA,"0",5879,NA,NA
+"20",12,"Dijle","dijle","network",NA,NA,"0",5880,NA,NA
+"21",630,"DTU-Test","DTUtest","network",NA,NA,"0",NA,NA,NA
+"22",14,"Albertkanaal","albert","network",NA,NA,"0",5876,NA,NA
+"23",631,"DTU-Test","DTUtest","animal",NA,NA,"1",NA,NA,NA
+"24",620,"Noordzeekanaal","Noordzeekanaal","network",2017-09-13,NA,"0",5881,NA,NA
+"25",619,"Noordzeekanaal","Noordzeekanaal","animal",2017-09-13,NA,"1",5881,NA,NA
+"26",617,"PC4C","pc4c","network",2017-07-03,NA,"0",5848,NA,NA
+"27",625,"Deveron 2016","Deveron","network",2016-04-01,2016-07-01,"0",5913,NA,NA
+"28",4,"Leopoldkanaal","leopold","network",NA,NA,"0",5855,NA,NA
+"29",9,"BPNS","bpns","network",NA,NA,"0",5843,NA,NA
+"30",626,"Moray Firth 2016","MorayFirth","network",2016-04-01,2016-07-01,"0",5914,NA,NA
+"31",612,"Saeftinghe","saeftinghe","network",NA,NA,"0",5857,NA,NA
+"32",627,"Aberdeen 2017","Aberdeen","network",2017-08-01,2017-12-22,"0",5915,NA,NA
+"33",606,"CodNoise","codnoise","animal",NA,NA,"1",5853,NA,NA
+"34",628,"Conon 2017","Conon","network",2016-04-01,2016-07-01,"0",5916,NA,NA
+"35",618,"PhD van der Knaap","pc4c","animal",2017-07-01,NA,"1",5849,NA,NA
+"36",629,"Skye 2017","Skye","network",2017-04-01,2017-08-15,"0",5917,NA,NA
+"37",599,"Homarus","homarus","animal",NA,NA,"0",NA,NA,NA
+"38",632,"Ocean Tracking Network","OTN","animal",NA,NA,"0",NA,NA,NA
+"39",11,"Bovenschelde","bovenschelde","network",NA,NA,"0",5877,NA,NA
+"40",13,"Maas","maas","network",NA,NA,"0",NA,NA,NA
+"41",26,"Azorean acoustic receiver network","AZ0","network",NA,NA,"0",5884,NA,NA
+"42",25,"Azorean acoustic receiver network","AZO","animal",NA,NA,"1",5884,NA,NA
+"43",22,"2015 Dijle","2015_dijle","animal",NA,NA,"0",5872,NA,NA
+"44",21,"2014 Demer","2014_demer","animal",NA,NA,"0",5871,NA,NA
+"45",621,"2016 PhD Vergeynst","2016_phd_vergeynst","animal",NA,NA,"1",5875,NA,NA
+"46",18,"2013 Albertkanaal","2013_albertkanaal","animal",NA,NA,"1",5868,NA,NA
+"47",15,"2012 Leopoldkanaal","2012_leopoldkanaal","animal",NA,NA,"0",5873,NA,NA
+"48",622,"2015 Fint","2015_fint","animal",NA,NA,"1",5858,NA,NA
+"49",20,"2011 Rivierprik","2011_rivierprik","animal",NA,NA,"0",5867,NA,NA
+"50",17,"2015 PhD Verhelst","2015_phd_verhelst","animal",NA,NA,"1",5850,NA,NA
+"51",636,"Jersey Coastal Fish Tracking","Jersey_Coastal","network",NA,NA,"0",NA,NA,NA
+"52",637,"Jersey Coastal Fish Tracking","Jersey_Coastal","animal",NA,NA,"1",NA,NA,NA
+"53",647,"MBA_Whitsand","MBA_Whitsand","network",NA,NA,"0",NA,50.326,-4.256
+"54",648,"MBA_Massmo","MBA_Massmo","network",NA,NA,"0",NA,50.24,-4.06
+"55",649,"MBA_Wavehub","MBA_Wavehub","network",NA,NA,"0",NA,50.365,-5.611
+"56",633,"Limfjord","Limfjord","network",NA,NA,"0",5926,56.9,9.1
+"57",634,"SVNL-FISH-WATCH","SVNL-FISH-WATCH","animal",2018-04-01,2018-06-30,"1",5927,NA,NA
+"58",635,"SVNL-FISH-WATCH","SVNL-FISH-WATCH","network",2018-04-01,2018-06-30,"0",5927,51.777749,4.213539
+"59",641,"BECORV","BECORV","network",NA,NA,"0",5928,38.68273,-9.25165
+"60",640,"Inforbiomares","Inforbiomares","network",NA,NA,"0",5929,38.4345,-9.06169
+"61",646,"ARAISOLA01","ARAISOLA01","animal",2004-03-01,2004-06-30,"0",5930,38.213,13.23539
+"62",650,"ARAISOLA01","ARAISOLA01","network",2004-03-01,2004-06-30,"0",5930,38.213,13.23539
+"63",642,"ARAISOLA02","ARAISOLA02","animal",2008-04-01,2008-06-30,"0",5931,38.213,13.23539
+"64",651,"ARAISOLA02","ARAISOLA02","network",2008-04-01,2008-06-30,"0",5931,38.213,13.23539
+"65",643,"ARAISOLA03","ARAISOLA03","animal",2015-10-01,2015-11-30,"0",5932,38.213,13.23539
+"66",652,"ARAISOLA03","ARAISOLA03","network",2015-10-01,2015-11-30,"0",5932,38.213,13.23539
+"67",644,"SARTELARAM","SARTELARAM","animal",2004-10-01,2004-11-30,"0",5933,38.03668,12.92499
+"68",653,"SARTELARAM","SARTELARAM","network",2004-10-01,2004-11-30,"0",5933,38.03668,12.92499
+"69",645,"SARTELZINGARO","SARTELZINGARO","animal",2009-11-01,2010-05-31,"0",5934,38.09775,12.80297
+"70",654,"SARTELZINGARO","SARTELZINGARO","network",2009-11-01,2010-05-31,"0",5934,38.09775,12.80297
+"71",655,"SARTELTG","SARTELTG","animal",2011-02-01,2011-06-30,"0",5935,NA,NA
+"72",656,"SARTELTG","SARTELTG","network",2011-02-01,2011-06-30,"0",5935,NA,NA
+"73",1,"Thorntonbank","thornton","network",2010-08-01,2012-10-30,"0",5847,NA,NA
+"74",613,"Westerschelde 1","ws1","network",2014-05-01,NA,"0",5844,NA,NA
+"75",616,"rangetest","rangetest","animal",2016-02-18,2016-03-10,"1",NA,NA,NA
+"76",16,"PhD Jan Reubens","phd_reubens","animal",2010-08-01,2012-10-30,"0",5846,NA,NA
+"77",614,"Westerschelde 2","ws2","network",2012-07-01,NA,"0",5845,NA,NA
+"78",615,"Westerschelde 3","ws3","network",2015-09-22,NA,"0",5854,NA,NA
+"79",5,"Zeeschelde","zeeschelde","network",2014-04-10,NA,"0",5860,NA,NA

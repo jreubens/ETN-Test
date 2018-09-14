@@ -11,9 +11,8 @@ vignette: https://github.com/inbo/etn/blob/master/vignettes/access-etn-data.Rmd
 
 devtools::install_github("inbo/etn")
 library(etn)
+library(dplyr)
 
-getwd() # Check your current working directory.
-setwd("/data/home/janr/etn")
 readRenviron("~/.Renviron")
 
 my_con <- connect_to_etn(Sys.getenv("username"), Sys.getenv("password"))
@@ -23,13 +22,15 @@ my_con
 # 1. Overview of projects
 my_projects <- get_projects(my_con)
 
+my_projects
+
 #subset projects for project type
 my_network_projects <- get_projects(my_con, project_type = "network")
 my_animal_projects <- get_projects(my_con, project_type = "animal")
 head(my_animal_projects, 10) #print first 10
 
 setwd("/data/home/janr/etn/Output")
-write.csv(my_projects, file = "Overview_projects.csv")
+write.csv(my_projects, file = "Output/Overview_projects.csv")
 
 
 #2. overview of receivers
@@ -43,8 +44,13 @@ ws_receivers %>%
   head(10) # print 10 first
 
 #3. overview of deployments
-my_deployments <- get_deployments(my_con, network_project = "bpns",
+my_deployments <- get_deployments(my_con, network_project = c("bpns","ws1"),
                                     receiver_status = "Active")
+my_deployments<- my_deployments %>%
+  filter(is.na(recover_date_time))%>%
+  select(receiver,projectname,drop_dead_date,station_name,deploy_lat, deploy_long)
+
+write.csv(my_deployments, file = "Output/Open_deployments.csv")
 
 #4. overview of animals
 my_animals <- get_animals(my_con, animal_project = "phd_reubens",
